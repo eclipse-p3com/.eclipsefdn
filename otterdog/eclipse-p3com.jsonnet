@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-p3com') {
+orgs.newOrg('automotive.p3com', 'eclipse-p3com') {
   settings+: {
     description: "",
     name: "Eclipse p3com",
